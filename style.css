@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(img/bk.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  height: 100px;
+  margin: 5rem;
+}
+.weather_container {
+  color: #fff;
+}
+.temp {
+  font-size: 70px;
+}
+.time_location {
+  font-size: xx-large;
+}
+.condition {
+  font-size: x-large;
+}
+.search_area {
+  padding: 1rem 0;
+  outline: none;
+  border: none;
+  color: #fff;
+  background-color: transparent;
+  font-size: 1.1rem;
+  border-bottom: 2px solid white;
+}
+.search_area::placeholder {
+  color: #fff;
+}
+nav form button {
+  background-image: radial-gradient(
+    circle,
+    #2c4c66,
+    #48637b,
+    #637c90,
+    #8095a6,
+    #9dafbd
+  );
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  margin-top: 10px;
+  border: 1px solid #fff;
+  box-shadow: #008cfe;
+}
